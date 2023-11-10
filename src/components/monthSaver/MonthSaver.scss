@@ -92,14 +92,29 @@
 
 .interact .interactContainer .right {
   width: 100%;
-  background-image: url("../../assets/images/png/saver-of-the-month.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   position: relative;
   padding-right: 15px;
   padding-left: 15px;
   flex: 0 0 41.666667%;
+  overflow: hidden;
+}
+
+.interact .interactContainer .right::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("../../assets/images/png/saver-of-the-month.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+}
+
+.interact .interactContainer .right:hover::before {
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 1000px) {
