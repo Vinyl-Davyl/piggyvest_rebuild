@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "U8-Bold";
+  src: url("../../assets/fonts/Fatype_U8/Fatype_U8/U8-Bold.otf")
+    format("opentype");
+}
+
+.investment {
+  padding: 0 16px 170px;
+  font-family: DM Sans, sans-serif;
+  color: #353535;
+  line-height: 27.2px;
+  font-size: 16.5px;
+}
+
+.investment .container {
+  max-width: 1165px;
+  margin: auto;
+}
+
+.investment .row {
+  display: flex;
+}
+
+.investment .left {
+  flex: 0 0 47%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.investment .left .box {
+  width: auto;
+  position: relative;
+}
+
+.investment .left .box .phone {
+  max-width: 256px;
+  width: 100%;
+  height: auto;
+}
+
+.investment .left .box .circle {
+  z-index: -10;
+  top: 170px;
+  left: -60%;
+  position: absolute;
+  right: 0;
+  vertical-align: bottom;
+  margin-right: 10px;
+  width: 280px;
+  height: 280px;
+  fill: none;
+}
+
+.investment .left .box .dot {
+  z-index: -10;
+  top: 30px;
+  left: unset;
+  right: -55px;
+  position: absolute;
+  vertical-align: bottom;
+  margin-right: 10px;
+  width: 33px;
+  height: 108px;
+  fill: none;
+}
+
+.investment .right {
+  flex: 0 0 53%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.investment .right .content {
+  max-width: 530px;
+  margin-top: 70px;
+}
+
+.investment .right .content .tag {
+  background-color: #f7f0ff;
+  margin-bottom: 30px;
+  color: #7913e5;
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 40px;
+  font-weight: 700;
+}
+
+.investment .right .content h2 {
+  font-size: 51px;
+  line-height: 64.1px;
+  font-family: U8-Bold, sans-serif;
+  font-weight: 700;
+  color: #0c1825;
+}
+
+.investment .right .content .text {
+  margin: 25px 0;
+  max-width: 450px;
+}
+
+.investment .right .content a {
+  background-image: -webkit-linear-gradient(top, transparent 65%, #f6dbf8 0);
+  background-image: -moz-linear-gradient(top, transparent 65%, #f6dbf8 0);
+  background-image: linear-gradient(180deg, transparent 65%, #f6dbf8 0);
+  color: #7913e5;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.investment .right .content a:hover {
+  background-size: 100% 100%;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 1000px) {
+  .investment .row {
+    flex-direction: column;
+  }
+
+  .investment .left {
+    flex: unset;
+    justify-content: center;
+  }
+
+  .investment .right {
+    text-align: center;
+    padding-left: 15px;
+  }
+
+  .investment .right .content h2 {
+    font-size: 41px;
+    line-height: 54px;
+    flex: unset;
+  }
+
+  .investment .right .content .text {
+    max-width: 450px;
+    margin: 25px auto;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .investment .left .box .circle {
+    left: -12px;
+  }
+
+  .investment .left .box .dot {
+    right: -30px;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .investment .right .content h2 {
+    font-size: 31px;
+    line-height: 39px;
+  }
+}
