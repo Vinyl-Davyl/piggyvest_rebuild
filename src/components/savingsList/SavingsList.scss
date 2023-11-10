@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "U8-Bold";
+  src: url("../../assets/fonts/Fatype_U8/Fatype_U8/U8-Bold.otf")
+    format("opentype");
+}
+
+.savings {
+  padding: 60px 16px 100px;
+  font-family: DM Sans, sans-serif;
+  color: #353535;
+  line-height: 27.2px;
+  font-size: 16.5px;
+}
+
+.savings .container {
+  max-width: 1165px;
+  margin: auto;
+}
+
+.savings .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.savings .left {
+  flex: 33.333333% 1;
+  max-width: 33.333333%;
+  width: 100%;
+  padding: 50px 15px 0 50px;
+  position: relative;
+}
+
+.savings .left .content {
+  max-width: 300px;
+  padding-bottom: 40px;
+}
+
+.savings .left .content h3 {
+  font-size: 38px;
+  line-height: 48.08px;
+  font-family: U8-Bold, sans-serif;
+  font-weight: 700;
+  color: #0c1825;
+}
+
+.savings .left .content p {
+  margin: 18px 0 53px;
+}
+
+.savings .left .content .btn {
+  font-size: 16.5px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  padding: 16px 22px;
+  border-radius: 12px;
+  background: #0c1825;
+  -webkit-transition: background-color 0.8s;
+  -moz-transition: background-color 0.8s;
+  transition: background-color 0.8s;
+}
+
+.savings .left .content .btn:hover {
+  background: #0d60d8;
+}
+
+.savings .right {
+  flex: 66.66667% 1;
+  max-width: 66.666667%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 1000px) {
+  .savings .row {
+    flex-direction: column;
+  }
+
+  .savings .left {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px 50px 20px;
+  }
+
+  .savings .left .content h3 {
+    font-size: 33px;
+    line-height: 43px;
+  }
+
+  .savings .right {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-around;
+  }
+}

@@ -3,7 +3,7 @@ import "./Security.scss";
 import { Link } from "react-router-dom";
 import Shield from "../../assets/images/png/shield.png";
 
-const Security = () => {
+const Security: React.FC = () => {
   return (
     <div className="security">
       <div className="container">
@@ -17,7 +17,7 @@ const Security = () => {
             <p>
               PiggyVest uses the highest level of Internet Security and it is
               secured by 256 bits SSL security encryption to ensure that your
-              information is comepletely protected from fraud.
+              information is completely protected from fraud.
             </p>
             <Link to="/">Learn more {">"}</Link>
           </div>

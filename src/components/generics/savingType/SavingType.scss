@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "U8-Bold";
+  src: url("../../assets/fonts/Fatype_U8/Fatype_U8/U8-Bold.otf")
+    format("opentype");
+}
+
+.saving-type {
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 30px 20px 30px 30px;
+  background-color: #f9f9f9;
+  max-width: 352px;
+  margin: 0 25px 45px;
+}
+
+.saving-type a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.saving-type img {
+  width: 50px;
+  /*  1:1 aspect ratio (width equals height), auto(missing dimesions, height/width)*/
+  aspect-ratio: auto 50 / 50;
+  height: 50px;
+}
+
+.saving-type h5 {
+  margin-top: 25px;
+  max-width: 250px;
+  color: #0c1825;
+  font-size: 20px;
+  line-height: 25.18px;
+  font-family: U8-Bold, sans-serif;
+  font-weight: 700;
+}
+
+.saving-type p {
+  margin: 18px 0 40px;
+  max-width: 290px;
+  min-height: 80px;
+  color: #353535;
+}
+
+.saving-type .sub-title {
+  font-weight: 500;
+  color: #353535;
+  -webkit-transition: margin-left 0.2s ease-out;
+  -moz-transition: margin-left 0.2s ease-out;
+  transition: margin-left 0.2s ease-out;
+}
+
+.saving-type:hover .sub-title {
+  margin-left: 10px;
+}
+
+.saving-type .sub-title img {
+  position: relative;
+  top: 2px;
+  vertical-align: bottom;
+  margin-right: 10px;
+  width: 33px;
+  height: 33px;
+  fill: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .saving-type {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .saving-type h5 {
+    max-width: 100%;
+  }
+
+  .saving-type:hover .sub-title {
+    margin-left: 0px;
+  }
+}
