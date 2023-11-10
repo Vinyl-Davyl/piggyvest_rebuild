@@ -4,6 +4,7 @@ import Hero from "../../components/hero/Hero";
 import Security from "../../components/security/Security";
 import SavingsList from "../../components/savingsList/SavingsList";
 import Investment from "../../components/accessInvestment/Investment";
+import MonthSaver from "../../components/monthSaver/MonthSaver";
 
 const Landingpage: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const Landingpage: React.FC = () => {
       <Security />
       <SavingsList />
       <Investment />
+      <MonthSaver />
     </div>
   );
 };
