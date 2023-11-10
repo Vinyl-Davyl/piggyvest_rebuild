@@ -11,7 +11,7 @@ import Dot from "../../assets/images/svg/dot.svg";
 import Apple from "../../assets/images/svg/apple.svg";
 import Google from "../../assets/images/svg/google.svg";
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <div className="invest">
       <div className="container">

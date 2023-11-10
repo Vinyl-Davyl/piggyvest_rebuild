@@ -3,8 +3,9 @@ import "./Header.scss";
 import PiggyLogo from "../../assets/images/svg/piggyvest-logo.svg";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header: React.FC = () => {
   const [responsive, setResponsive] = useState(false);
+
   const handleClick = () => {
     setResponsive(!responsive);
   };
