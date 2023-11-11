@@ -4,11 +4,11 @@ import "./Customers.scss";
 import Apple from "../../assets/images/svg/apple.svg";
 import Google from "../../assets/images/svg/google.svg";
 
-import Tobenna from "../../assets/images/png/testimonials/Tobenna.jpeg";
+import Ebere from "../../assets/images/png/testimonials/Ebere.jpeg";
 import Micheal from "../../assets/images/png/testimonials/Micheal F.jpeg";
 import Racheal from "../../assets/images/png/testimonials/Racheal O.png";
 import Oluwadamilola from "../../assets/images/png/testimonials/Oluwadamilola A.jpg";
-import Joseph from "../../assets/images/png/testimonials/Joseph A.jpeg";
+import VinylDavyl from "../../assets/images/png/testimonials/Vinyl.jpg";
 
 const Customers: React.FC = () => {
   return (
@@ -19,34 +19,6 @@ const Customers: React.FC = () => {
             <div className="testimonials">
               <div className="boxes">
                 <div className="box">
-                  <small>Thursday, 6th of October 2022 by 11:42 AM</small>
-                  <div className="imgContent">
-                    <img src={Tobenna} alt="" />
-                    <div className="boxContent">
-                      <h6>Tobenna A</h6>
-                      <p>
-                        Thanks to piggyvest I've saved enough money to start up
-                        a really large business
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="box">
-                  <small>Wednesday, 5th of October 2022 by 03:08 AM</small>
-                  <div className="imgContent">
-                    <img src={Micheal} alt="" />
-                    <div className="boxContent">
-                      <h6>Micheal F</h6>
-                      <p>
-                        I just joined tho and I believe piggyVest won't
-                        disappoint me 😊❤️
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="box">
                   <small>Thursday, 27th of October 2022 by 13:03 PM</small>
                   <div className="imgContent">
                     <img src={Racheal} alt="" />
@@ -62,26 +34,54 @@ const Customers: React.FC = () => {
                 </div>
 
                 <div className="box">
-                  <small>Tuesday, 4th of October 2022 by 18:01 PM</small>
+                  <small>Thursday, 6th of October 2022 by 11:42 AM</small>
                   <div className="imgContent">
-                    <img src={Oluwadamilola} alt="" />
+                    <img src={Ebere} alt="" />
                     <div className="boxContent">
-                      <h6>Oluwadamilola A</h6>
+                      <h6>Ebere U</h6>
                       <p>
-                        PiggyVest was introduced to me some years back and I
-                        have been able to save multiple millions over the years.
-                        I look forward to more from Piggyvest.
+                        I started using Piggyvest not quite long, but I tell you
+                        it's one way to save your money without stress.
                       </p>
                     </div>
                   </div>
                 </div>
 
                 <div className="box">
-                  <small>Saturday, 24th of September 2022 by 19:58 PM</small>
+                  <small>Saturday, 11th of November 2023 by 15:15 PM</small>
                   <div className="imgContent">
-                    <img src={Joseph} alt="" />
+                    <img src={VinylDavyl} alt="" />
                     <div className="boxContent">
-                      <h6>Joseph A</h6>
+                      <h6>Vinyl Davyl</h6>
+                      <p>
+                        Trustworthy, easy to use, quick, but occasional
+                        withdrawal delays. Been a user for over 5 years, Lahila
+                        I join as a software engineer(FE) in the nearest future.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="box">
+                  <small>Wednesday, 5th of October 2022 by 03:08 AM</small>
+                  <div className="imgContent">
+                    <img src={Micheal} alt="" />
+                    <div className="boxContent">
+                      <h6>Micheal F</h6>
+                      <p>
+                        I just joined tho and I believe Piggyvest won't
+                        disappoint me 😊❤️
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="box">
+                  <small>Tuesday, 4th of October 2022 by 18:01 PM</small>
+                  <div className="imgContent">
+                    <img src={Oluwadamilola} alt="" />
+                    <div className="boxContent">
+                      <h6>Oluwadamilola A</h6>
                       <p>
                         Piggvest has helped me with buying my new iPhone and it
                         is the most reliable app.
@@ -91,14 +91,44 @@ const Customers: React.FC = () => {
                 </div>
 
                 <div className="box">
+                  <small>Thursday, 27th of October 2022 by 13:03 PM</small>
+                  <div className="imgContent">
+                    <img src={Racheal} alt="" />
+                    <div className="boxContent">
+                      <h6>Racheal O</h6>
+                      <p>
+                        Piggyvest has helped me a lot. Thank you so much
+                        Piggyvest for saving me cause I am the type of person
+                        that spends lavishly. Thank you once again.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="box">
                   <small>Thursday, 6th of October 2022 by 11:42 AM</small>
                   <div className="imgContent">
-                    <img src={Tobenna} alt="" />
+                    <img src={Ebere} alt="" />
                     <div className="boxContent">
-                      <h6>Tobenna A</h6>
+                      <h6>Ebere U</h6>
                       <p>
-                        Thanks to piggyvest I've saved enough money to start up
-                        a really large business
+                        I started using Piggyvest not quite long, but I tell you
+                        it's one way to save your money without stress.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="box">
+                  <small>Saturday, 24th of September 2022 by 19:58 PM</small>
+                  <div className="imgContent">
+                    <img src={VinylDavyl} alt="" />
+                    <div className="boxContent">
+                      <h6>Vinyl Davyl</h6>
+                      <p>
+                        Trustworthy, easy to use, quick, but occasional
+                        withdrawal delays. A loyal user for over 5 years, Lahila
+                        I join as a software engineer(FE) in the nearest future.
                       </p>
                     </div>
                   </div>
@@ -119,41 +149,11 @@ const Customers: React.FC = () => {
                 </div>
 
                 <div className="box">
-                  <small>Thursday, 27th of October 2022 by 13:03 PM</small>
-                  <div className="imgContent">
-                    <img src={Racheal} alt="" />
-                    <div className="boxContent">
-                      <h6>Racheal O</h6>
-                      <p>
-                        Piggyvest has helped me a lot. Thank you so much
-                        Piggyvest for saving me cause I am the type of person
-                        that spends lavishly. Thank you once again.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="box">
                   <small>Tuesday, 4th of October 2022 by 18:01 PM</small>
                   <div className="imgContent">
                     <img src={Oluwadamilola} alt="" />
                     <div className="boxContent">
                       <h6>Oluwadamilola A</h6>
-                      <p>
-                        PiggyVest was introduced to me some years back and I
-                        have been able to save multiple millions over the years.
-                        I look forward to more from Piggyvest.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="box">
-                  <small>Saturday, 24th of September 2022 by 19:58 PM</small>
-                  <div className="imgContent">
-                    <img src={Joseph} alt="" />
-                    <div className="boxContent">
-                      <h6>Joseph A</h6>
                       <p>
                         Piggvest has helped me with buying my new iPhone and it
                         is the most reliable app.
