@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "U8-Bold";
+  src: url("../../assets/fonts/Fatype_U8/Fatype_U8/U8-Bold.otf")
+    format("opentype");
+}
+
+.featured {
+  background: #f9f9f9;
+  padding: 65px 16px;
+  font-family: DM Sans, sans-serif !important;
+  color: #353535;
+  line-height: 27.2px;
+  font-size: 16.5px;
+}
+
+.featured .container {
+  max-width: 1165px;
+  margin: auto;
+}
+
+.featured .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.featured .left {
+  flex: 33.333333% 1;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.featured .left h4 {
+  font-size: 33px;
+  line-height: 41.21px;
+  font-family: U8-Bold, sans-serif;
+  font-weight: 700;
+  color: #0c1825;
+}
+
+.featured .right {
+  padding-left: 65px;
+  flex: 0 0 66.666667%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.featured .right .first-link {
+  margin: 0 25px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.featured .right .first-link .box {
+  overflow: hidden;
+  position: relative;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 1000px) {
+  .featured .row {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .featured .left h4 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .featured .right {
+    justify-content: center;
+    gap: 30px 40px;
+    flex-wrap: wrap;
+    padding-left: 15px;
+  }
+}

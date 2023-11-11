@@ -6,6 +6,8 @@ import SavingsList from "../../components/savingsList/SavingsList";
 import Investment from "../../components/accessInvestment/Investment";
 import MonthSaver from "../../components/saverOfMonth/MonthSaver";
 import Customers from "../../components/customers/Customers";
+import Featured from "../../components/features/Features";
+import Footer from "../../components/footer/footer";
 
 const Landingpage: React.FC = () => {
   return (
@@ -17,6 +19,8 @@ const Landingpage: React.FC = () => {
       <Investment />
       <MonthSaver />
       <Customers />
+      <Featured />
+      <Footer />
     </div>
   );
 };

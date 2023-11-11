@@ -120,7 +120,7 @@ const Customers: React.FC = () => {
                 </div>
 
                 <div className="box">
-                  <small>Saturday, 24th of September 2022 by 19:58 PM</small>
+                  <small>Saturday, 11th of November 2023 by 15:15 PM</small>
                   <div className="imgContent">
                     <img src={VinylDavyl} alt="" />
                     <div className="boxContent">
