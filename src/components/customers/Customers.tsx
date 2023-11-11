@@ -5,7 +5,7 @@ import Apple from "../../assets/images/svg/apple.svg";
 import Google from "../../assets/images/svg/google.svg";
 
 import Ebere from "../../assets/images/png/testimonials/Ebere.jpeg";
-import Micheal from "../../assets/images/png/testimonials/Micheal F.jpeg";
+import Olabisi from "../../assets/images/png/testimonials/Olabisi A.jpg";
 import Racheal from "../../assets/images/png/testimonials/Racheal O.png";
 import Oluwadamilola from "../../assets/images/png/testimonials/Oluwadamilola A.jpg";
 import VinylDavyl from "../../assets/images/png/testimonials/Vinyl.jpg";
@@ -65,9 +65,9 @@ const Customers: React.FC = () => {
                 <div className="box">
                   <small>Wednesday, 5th of October 2022 by 03:08 AM</small>
                   <div className="imgContent">
-                    <img src={Micheal} alt="" />
+                    <img src={Olabisi} alt="" />
                     <div className="boxContent">
-                      <h6>Micheal F</h6>
+                      <h6>Olabisi A</h6>
                       <p>
                         I just joined tho and I believe Piggyvest won't
                         disappoint me 😊❤️
@@ -137,9 +137,9 @@ const Customers: React.FC = () => {
                 <div className="box">
                   <small>Wednesday, 5th of October 2022 by 03:08 AM</small>
                   <div className="imgContent">
-                    <img src={Micheal} alt="" />
+                    <img src={Olabisi} alt="" />
                     <div className="boxContent">
-                      <h6>Micheal F</h6>
+                      <h6>Olabisi A</h6>
                       <p>
                         I just joined tho and I believe piggyVest won't
                         disappoint me 😊❤️

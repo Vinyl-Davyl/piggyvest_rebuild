@@ -159,6 +159,26 @@
   bottom: 50px;
 }
 
+.invest .right .box .rent,
+.invest .right .box .investify {
+  position: absolute;
+  max-width: 215px;
+  animation-name: floatUpDown;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floatUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
 .invest .right .box .circle {
   position: absolute;
   top: 170px;

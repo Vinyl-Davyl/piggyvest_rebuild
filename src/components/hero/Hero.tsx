@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
               <img src={BoxBG} alt="rectangle" className="rectangle" />
               <img src={Woman} alt="woman-pic" className="womanpic" />
               <img src={Rent} alt="rest-logo" className="rent" />
-              <img src={Investify} alt="gggs" className="investify" />
+              <img src={Investify} alt="investify" className="investify" />
               <img src={Circle} alt="circle" className="circle" />
               <img src={Cross} alt="cross" className="cross" />
               <img src={Dot} alt="dot" className="dot" />

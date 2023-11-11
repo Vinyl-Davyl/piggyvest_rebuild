@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
             tempted to spend.
           </p>
           <p className="primary">
-            2016 - 2022 PiggyTech Global Limited - RC 1405222
+            2016 - 2023 PiggyTech Global Limited - RC 1405222
           </p>
         </div>
       </div>

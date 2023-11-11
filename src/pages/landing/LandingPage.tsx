@@ -7,7 +7,7 @@ import Investment from "../../components/accessInvestment/Investment";
 import MonthSaver from "../../components/saverOfMonth/MonthSaver";
 import Customers from "../../components/customers/Customers";
 import Featured from "../../components/features/Features";
-import Footer from "../../components/footer/footer";
+import Footer from "../../components/footer/Footer";
 
 const Landingpage: React.FC = () => {
   return (

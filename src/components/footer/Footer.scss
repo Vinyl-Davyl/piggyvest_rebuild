@@ -91,7 +91,7 @@ footer a:hover {
 
 .footer .socials ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -121,7 +121,7 @@ footer a:hover {
 .footer .socials a {
   line-height: 21px;
   margin-bottom: 200px;
-  text-align: right;
+  text-align: left;
   font-weight: 500;
   margin-right: 0;
   -webkit-transition: color 0.5s;
@@ -131,10 +131,9 @@ footer a:hover {
 
 .footer .connect a {
   line-height: 21px;
-  text-align: right;
+  text-align: left;
   display: block;
   color: inherit;
-  text-align: right;
   margin-bottom: 15px;
   font-weight: 500;
   -webkit-transition: color 0.5s;
