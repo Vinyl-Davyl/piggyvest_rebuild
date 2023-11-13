@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../Login/Login.scss";
+import "../Login/Auth.scss";
 import { Link } from "react-router-dom";
 import { useFormik } from "formik";
 import { ToastContainer, toast } from "react-toastify";

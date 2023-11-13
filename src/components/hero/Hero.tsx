@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Investify from "../../assets/images/png/investify.png";
 import Rent from "../../assets/images/png/rent.png";
 import BoxBG from "../../assets/images/png/rex-bg.png";
-import Woman from "../../assets/images/png/woman.png";
+import Woman from "../../assets/images/png/lady.png";
 import Cross from "../../assets/images/svg/cross.svg";
 import Circle from "../../assets/images/svg/circle.svg";
 import Dot from "../../assets/images/svg/dot.svg";
@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
           <div className="right">
             <div className="box">
               <img src={BoxBG} alt="rectangle" className="rectangle" />
-              <img src={Woman} alt="woman-pic" className="womanpic" />
+              <img src={Woman} alt="woman" className="womanpic" />
               <img src={Rent} alt="rest-logo" className="rent" />
               <img src={Investify} alt="investify" className="investify" />
               <img src={Circle} alt="circle" className="circle" />
