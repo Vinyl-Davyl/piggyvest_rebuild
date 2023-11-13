@@ -3,7 +3,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-Rebuild of [Piggyvest](https://piggyvest.com/) V1.1.0 Authentication and Landing Interfaces. Using TypeScript
+Rebuild of [Piggyvest](https://piggyvest.com/) V1.1.0 Authentication and Landing Interfaces. Built on TypeScript
  
 ### ✨ [Live Demo](https://piggyvest-rebuild.vercel.app)
 
