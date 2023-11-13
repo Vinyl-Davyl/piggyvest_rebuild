@@ -50,7 +50,7 @@ const Login: React.FC = () => {
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-            theme: "colored",
+            theme: "light",
           }
         );
         resetForm();

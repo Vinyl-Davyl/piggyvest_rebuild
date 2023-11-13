@@ -68,7 +68,7 @@ const Signup: React.FC = () => {
     validate,
     onSubmit: (values, { resetForm }) => {
       setTimeout(() => {
-        toast.success(JSON.stringify(values, null, 2), {
+        toast.success("SignUp details submitted successfully!", {
           position: "top-right",
           autoClose: 5000,
           hideProgressBar: true,
@@ -76,7 +76,7 @@ const Signup: React.FC = () => {
           pauseOnHover: true,
           draggable: true,
           progress: undefined,
-          theme: "colored",
+          theme: "light",
         });
         resetForm();
       }, 500);
