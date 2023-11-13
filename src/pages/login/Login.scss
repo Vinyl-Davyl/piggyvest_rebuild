@@ -1,0 +1,200 @@
+@font-face {
+  font-family: U8;
+  src: url(../../assets/fonts/Fatype_U8/Fatype_U8/U8-Regular.otf)
+    format("opentype");
+}
+
+:root {
+  --primaryColor: #062863;
+  --white: #ffffff;
+  --inputBg: #edf2f7;
+  --inputText: #1a202c;
+  --textColor: #4a5568;
+  --btnbg: #0d60d8;
+  --footHoverColor: rgb(179, 179, 179);
+  --footColor: rgb(255, 255, 255);
+  --h1Color: #083e9e;
+  --createBtn: rgb(8, 62, 158);
+  --error: red;
+}
+
+.loginPage,
+.signUp,
+.forgetPage {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--primaryColor);
+  background-image: url(../../assets/images/png/auth/loginLeftTopBg.png),
+    url(../../assets/images/png/auth/loginRightTopBg.png),
+    url(../../assets/images/png/auth/loginLeftBottomBg.png),
+    url(../../assets/images/png/auth/loginRightBottomBg.png);
+  background-position: left -1% top -15%, right -7.5% top -1%,
+    left -5% bottom -10%, right -5% bottom -5%;
+  background-position-x: left -1%, right -7.5%, left -5%, right -5%;
+  background-position-y: top -15%, top -1%, bottom -10%, bottom -5%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 15%, 15%, 15%, 15%;
+  padding: 3rem 0;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.authHeader img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 3rem;
+  display: block;
+}
+
+.login {
+  width: 91.666667%;
+  max-width: 28rem;
+  padding: 2.5rem 2.5rem 3rem 2.5rem;
+  background-color: var(--white);
+  border-radius: 1.25rem 1.25rem 1.25rem 0;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.formHead h1 {
+  font-size: 1.5rem;
+  color: var(--h1Color);
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+  font-family: U8, sans-serif;
+}
+
+.formHead p {
+  font-size: 0.875rem;
+  color: var(--textColor);
+  text-align: center;
+  line-height: 1.5;
+  font-family: Karla, sans-serif;
+}
+
+.login form {
+  height: auto;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.formGroup {
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label {
+  width: 100%;
+  font-size: 0.75rem;
+  line-height: 2;
+  color: var(--textColor);
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+  cursor: default;
+  letter-spacing: 0.1px;
+  font-family: U8, sans-serif;
+}
+
+.input,
+.referralSource {
+  width: 100%;
+  background-color: var(--inputBg);
+  border: none;
+  outline: none;
+  padding: 1rem;
+  color: var(--inputText);
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+.referralSource {
+  cursor: pointer;
+}
+
+.button {
+  width: 100%;
+  background-color: var(--btnbg) !important;
+  color: var(--white);
+  border: none;
+  border-radius: 0.5rem 0.5rem 0.5rem 0;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 1rem 2.5rem 0.75rem 2.5rem;
+  font-weight: 700;
+  font-family: U8, sans-serif;
+}
+
+.button:hover {
+  background-color: var(--h1Color) !important;
+}
+
+.footLink {
+  color: var(--footColor);
+  font-size: 0.875rem;
+  margin-top: 2rem;
+  padding: 0.25rem 1.25rem;
+  font-weight: 400;
+  font-family: Karla, sans-serif;
+}
+
+.footLink:hover {
+  color: var(--footHoverColor);
+}
+
+.forget {
+  margin-top: 1rem;
+}
+
+.error {
+  color: var(--error);
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: Karla, sans-serif;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 768px) {
+  .formHead h1 {
+    font-size: 1.25rem;
+  }
+
+  .input,
+  .referralSource {
+    padding: 0.75rem 0.5rem 0.75rem 0.75rem;
+  }
+
+  .footLink {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .login {
+    padding: 2rem 2rem 2.5rem 2rem;
+  }
+}
