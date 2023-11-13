@@ -66,7 +66,7 @@ const Signup: React.FC = () => {
       referralSource: "",
     },
     validate,
-    onSubmit: (values, { resetForm }) => {
+    onSubmit: (_, { resetForm }) => {
       setTimeout(() => {
         toast.success("SignUp details submitted successfully!", {
           position: "top-right",

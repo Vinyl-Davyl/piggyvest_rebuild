@@ -38,7 +38,7 @@ const Login: React.FC = () => {
       password: "",
     },
     validate,
-    onSubmit: (values, { resetForm }) => {
+    onSubmit: (_, { resetForm }) => {
       setTimeout(() => {
         toast.success(
           JSON.stringify("Successfully submitted login information.", null, 2),
