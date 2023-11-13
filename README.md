@@ -1,6 +1,6 @@
 ## PiggyVest Rebuild
 
-Rebuild of [Piggyvest](https://piggyvest.com/) V1.1.0 Authentication and Landing Interfaces. Using TypeScript
+Rebuild of [PiggyVest](https://piggyvest.com/) V1.1.0 Authentication and Landing Interfaces. Using TypeScript
 
 ### Running The Project
 
